@@ -1,20 +1,31 @@
 class Solution {
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         boolean[] visited = new boolean[rooms.size()];
+        Deque<Integer> stack = new ArrayDeque<>();
+        int visitedCount = 0;
 
-        dfs(0, rooms, visited);
-        for (boolean isvisited : visited)
-            if (!isvisited)
-                return false;
+        // Room 0 is unlocked at the start.
+        visited[0] = true;
+        stack.push(0);
 
-        return true;
-    }
+        while (!stack.isEmpty()) {
+            int room = stack.pop();
+            visitedCount++;
 
-    private void dfs(int room, List<List<Integer>> rooms, boolean[] visited) {
-        if (visited[room])
-            return;
-        visited[room] = true;
-        for (int key : rooms.get(room))
-            dfs(key, rooms, visited);
+            // Every number in this room is a key to another room.
+            for (int key : rooms.get(room)) {
+                if (visited[key]) {
+                    continue;
+                }
+
+                // Once we find a new key, mark that room as reachable
+                // and explore the keys inside it later.
+                visited[key] = true;
+                stack.push(key);
+            }
+        }
+
+        // If DFS reached every room, then every room can be visited.
+        return visitedCount == rooms.size();
     }
 }
