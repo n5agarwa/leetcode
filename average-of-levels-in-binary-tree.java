@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class AverageOfLevelsInBinaryTree {
+    public static void main(String[] args) {
+        System.out.println("AverageOfLevelsInBinaryTree is runnable. Add test cases in main().");
+    }
     /* BFS version
     public List<Double> averageOfLevels(TreeNode root) {
         List<Double> average = new ArrayList<>();

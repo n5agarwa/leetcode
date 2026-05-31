@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NextGreaterElementII {
+    public static void main(String[] args) {
+        System.out.println("NextGreaterElementII is runnable. Add test cases in main().");
+    }
     public int[] nextGreaterElements(int[] nums) {
         int n = nums.length;
         int ans[] = new int[n];

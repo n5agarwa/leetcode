@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run All Paths",
+      "request": "launch",
+      "mainClass": "AllPathsFromSourceToTarget",
+      "projectName": "leetcode"
+    },
+    {
+      "type": "java",
+      "name": "Run Largest Rectangle",
+      "request": "launch",
+      "mainClass": "LargestRectangleInHistogram",
+      "projectName": "leetcode"
+    }
+  ]
+}

@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NumberOfVisiblePeopleInAQueue {
+    public static void main(String[] args) {
+        System.out.println("NumberOfVisiblePeopleInAQueue is runnable. Add test cases in main().");
+    }
     public int[] canSeePersonsCount(int[] heights) {
         int n = heights.length;
         Deque<Integer> stack = new ArrayDeque<>();

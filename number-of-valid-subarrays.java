@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NumberOfValidSubarrays {
+    public static void main(String[] args) {
+        System.out.println("NumberOfValidSubarrays is runnable. Add test cases in main().");
+    }
     public int validSubarrays(int[] nums) {
         int length = nums.length;
         Deque<Integer> stack = new ArrayDeque<>();

@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class PathSum {
+    public static void main(String[] args) {
+        System.out.println("PathSum is runnable. Add test cases in main().");
+    }
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if(root == null)
         return false;

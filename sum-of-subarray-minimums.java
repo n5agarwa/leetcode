@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class SumOfSubarrayMinimums {
+    public static void main(String[] args) {
+        System.out.println("SumOfSubarrayMinimums is runnable. Add test cases in main().");
+    }
     public int sumSubarrayMins(int[] arr) {
         int n = arr.length;
         long mod = 1_000_000_007;

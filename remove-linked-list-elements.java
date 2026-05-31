@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -8,7 +10,10 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class RemoveLinkedListElements {
+    public static void main(String[] args) {
+        System.out.println("RemoveLinkedListElements is runnable. Add test cases in main().");
+    }
     public ListNode removeElements(ListNode head, int val) {
         if (head == null)
             return null;

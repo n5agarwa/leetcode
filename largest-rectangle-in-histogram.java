@@ -1,4 +1,10 @@
-class Solution {
+import java.util.*;
+
+class LargestRectangleInHistogram {
+    public static void main(String[] args) {
+        int[] heights = {2, 1, 5, 6, 2, 3};
+        System.out.println(new LargestRectangleInHistogram().largestRectangleArea(heights));
+    }
     public int largestRectangleArea(int[] heights) {
         Deque<Integer> stack = new ArrayDeque<>();
         int maxArea = 0;

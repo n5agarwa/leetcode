@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class MaximumDifferenceBetweenNodeAndAncestor {
+    public static void main(String[] args) {
+        System.out.println("MaximumDifferenceBetweenNodeAndAncestor is runnable. Add test cases in main().");
+    }
     private int dfs(TreeNode node, int min, int max){
         if(node == null)
            return Math.abs(max - min);

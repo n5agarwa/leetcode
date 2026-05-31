@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class RemovingStarsFromAString {
+    public static void main(String[] args) {
+        System.out.println("RemovingStarsFromAString is runnable. Add test cases in main().");
+    }
     public String removeStars(String s) {
         char stack [] = s.toCharArray();
         int top = 0;

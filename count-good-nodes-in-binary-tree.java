@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class CountGoodNodesInBinaryTree {
+    public static void main(String[] args) {
+        System.out.println("CountGoodNodesInBinaryTree is runnable. Add test cases in main().");
+    }
     public int goodNodes(TreeNode root) {
         return goodNodes(root, Integer.MIN_VALUE);
     }

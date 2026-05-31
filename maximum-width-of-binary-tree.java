@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class MaximumWidthOfBinaryTree {
+    public static void main(String[] args) {
+        System.out.println("MaximumWidthOfBinaryTree is runnable. Add test cases in main().");
+    }
     class Pair {
         TreeNode node;
         long index;

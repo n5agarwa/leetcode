@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for singly-linked list.
  * public class ListNode {
@@ -8,7 +10,10 @@
  *     ListNode(int val, ListNode next) { this.val = val; this.next = next; }
  * }
  */
-class Solution {
+class MaximumTwinSumOfALinkedList {
+    public static void main(String[] args) {
+        System.out.println("MaximumTwinSumOfALinkedList is runnable. Add test cases in main().");
+    }
     public int pairSum(ListNode head) {
        ListNode slow = head, fast = head;
 

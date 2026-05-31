@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NumberOfIslands {
+    public static void main(String[] args) {
+        System.out.println("NumberOfIslands is runnable. Add test cases in main().");
+    }
     public int numIslands(char[][] grid) {
         int count = 0;
 

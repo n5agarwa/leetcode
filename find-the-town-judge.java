@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class FindTheTownJudge {
+    public static void main(String[] args) {
+        System.out.println("FindTheTownJudge is runnable. Add test cases in main().");
+    }
     public int findJudge(int n, int[][] trust) {
         int []trustscore = new int[n + 1];
 

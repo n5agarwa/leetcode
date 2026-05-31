@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class PathCrossing {
+    public static void main(String[] args) {
+        System.out.println("PathCrossing is runnable. Add test cases in main().");
+    }
     public boolean isPathCrossing(String path) {
         int x = 0, y = 0;
         Set<Long> seen = new HashSet<>();

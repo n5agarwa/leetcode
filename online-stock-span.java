@@ -1,4 +1,14 @@
+import java.util.*;
+
 class StockSpanner {
+    public static void main(String[] args) {
+        StockSpanner stockSpanner = new StockSpanner();
+        int[] prices = {100, 80, 60, 70, 60, 75, 85};
+        for (int price : prices) {
+            System.out.print(stockSpanner.next(price) + " ");
+        }
+        System.out.println();
+    }
     private class Pair {
         int span;
         int price;

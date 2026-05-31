@@ -1,3 +1,5 @@
+import java.util.*;
+
 /*
 // Definition for a Node.
 class Node {
@@ -21,7 +23,10 @@ class Node {
 };
 */
 
-class Solution {
+class PopulatingNextRightPointersInEachNode {
+    public static void main(String[] args) {
+        System.out.println("PopulatingNextRightPointersInEachNode is runnable. Add test cases in main().");
+    }
     public Node connect(Node root) {
         if (root == null)
             return null;

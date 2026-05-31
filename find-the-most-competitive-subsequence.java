@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class FindTheMostCompetitiveSubsequence {
+    public static void main(String[] args) {
+        System.out.println("FindTheMostCompetitiveSubsequence is runnable. Add test cases in main().");
+    }
     public int[] mostCompetitive(int[] nums, int k) {
         int n = nums.length;
         Deque<Integer> stack = new ArrayDeque<>();

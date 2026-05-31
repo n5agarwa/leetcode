@@ -1,6 +1,15 @@
-class Solution {
+import java.util.*;
+
+class AllPathsFromSourceToTarget {
+    public static void main(String[] args) {
+        int[][] graph = {{1, 2}, {3}, {3}, {}};
+        System.out.println(new AllPathsFromSourceToTarget().allPathsSourceTarget(graph));
+    }
     public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
         List<List<Integer>> resultpath = new ArrayList<>();
+        if (graph == null || graph.length == 0)
+            return resultpath;
+
         List<Integer> currentPath = new ArrayList<>();
 
         dfs(graph, 0, currentPath, resultpath);

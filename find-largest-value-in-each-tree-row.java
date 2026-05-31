@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class FindLargestValueInEachTreeRow {
+    public static void main(String[] args) {
+        System.out.println("FindLargestValueInEachTreeRow is runnable. Add test cases in main().");
+    }
     public List<Integer> largestValues(TreeNode root) {
         List<Integer> result = new ArrayList<>();
 

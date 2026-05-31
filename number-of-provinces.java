@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NumberOfProvinces {
+    public static void main(String[] args) {
+        System.out.println("NumberOfProvinces is runnable. Add test cases in main().");
+    }
     int parent[];
 
     public int findCircleNum(int[][] isConnected) {

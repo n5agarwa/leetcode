@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class NextGreaterElementI {
+    public static void main(String[] args) {
+        System.out.println("NextGreaterElementI is runnable. Add test cases in main().");
+    }
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
         Map<Integer, Integer> ansmap = new HashMap<Integer, Integer>();
         Deque<Integer> stack = new ArrayDeque<Integer>();

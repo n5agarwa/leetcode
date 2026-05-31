@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -7,7 +9,14 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Codec {
+class Codec {
+    public static void main(String[] args) {
+        Codec codec = new Codec();
+        TreeNode root = new TreeNode(1, new TreeNode(2), new TreeNode(3));
+        String serialized = codec.serialize(root);
+        System.out.println(serialized);
+        System.out.println(codec.serialize(codec.deserialize(serialized)));
+    }
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {

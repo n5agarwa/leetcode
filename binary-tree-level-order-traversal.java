@@ -1,3 +1,5 @@
+import java.util.*;
+
 /**
  * Definition for a binary tree node.
  * public class TreeNode {
@@ -13,7 +15,10 @@
  *     }
  * }
  */
-class Solution {
+class BinaryTreeLevelOrderTraversal {
+    public static void main(String[] args) {
+        System.out.println("BinaryTreeLevelOrderTraversal is runnable. Add test cases in main().");
+    }
     public List<List<Integer>> levelOrder(TreeNode root) {
         List<List<Integer>> result = new ArrayList<>();
         if (root == null)

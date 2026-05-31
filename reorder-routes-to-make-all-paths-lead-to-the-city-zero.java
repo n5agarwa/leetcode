@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class ReorderRoutesToMakeAllPathsLeadToTheCityZero {
+    public static void main(String[] args) {
+        System.out.println("ReorderRoutesToMakeAllPathsLeadToTheCityZero is runnable. Add test cases in main().");
+    }
     int idx = 0;
 
     public int minReorder(int n, int[][] connections) {

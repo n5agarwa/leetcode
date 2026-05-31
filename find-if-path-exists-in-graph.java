@@ -1,4 +1,9 @@
-class Solution {
+import java.util.*;
+
+class FindIfPathExistsInGraph {
+    public static void main(String[] args) {
+        System.out.println("FindIfPathExistsInGraph is runnable. Add test cases in main().");
+    }
     public boolean validPath(int n, int[][] edges, int source, int destination) {
         if (source == destination)
             return true;

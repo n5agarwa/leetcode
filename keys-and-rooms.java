@@ -1,4 +1,15 @@
-class Solution {
+import java.util.*;
+
+class KeysAndRooms {
+    public static void main(String[] args) {
+        List<List<Integer>> rooms = Arrays.asList(
+                Arrays.asList(1),
+                Arrays.asList(2),
+                Arrays.asList(3),
+                Collections.<Integer>emptyList()
+        );
+        System.out.println(new KeysAndRooms().canVisitAllRooms(rooms));
+    }
     public boolean canVisitAllRooms(List<List<Integer>> rooms) {
         boolean[] visited = new boolean[rooms.size()];
         Deque<Integer> stack = new ArrayDeque<>();
